@@ -1,0 +1,28 @@
+.header {
+    background: rgb(62,181,193);
+    margin: auto;
+    width: 100%;
+    height: 9%;
+}
+
+.logo {
+    padding-top:50px;
+    padding-left:25px;
+    text-align:40px;
+    cursor: default !important;
+    font-size:38px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Eras medium ITC";
+    color: rgb(238,238,247);
+    text-decoration: none;
+}           
+
+.headerlink {
+    padding-top:50px;
+    padding-left:15px;
+    font-size:18px;
+    font-family:candara;
+    color: rgb(238,238,247);
+    text-decoration: none;
+}
