@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:designPath="/etc/designs/aviva-demo"
+        cq:lastModified="{Date}2017-05-30T15:05:26.542+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aviva-demo/templates/article-page"
+        jcr:description="Sample Article Page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="article1"
+        sling:resourceType="aviva-demo/components/structure/article-page"
+        pageTitle="Article 1">
+        <image
+            jcr:lastModified="{Date}2016-01-09T10:07:28.511-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/we-retail-client-app/mobile-app/icons/icon.png"
+            imageRotate="0"/>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Small Screen"
+                    width="{Decimal}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Large Screen"
+                    width="{Decimal}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

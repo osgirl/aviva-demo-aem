@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-05-30T14:39:14.492+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aviva-demo/settings/wcm/templates/404-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="404"
+        sling:resourceType="weretail/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <_404
+                jcr:created="{Date}2017-05-30T14:12:22.756+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-30T14:39:14.489+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aviva-demo/components/content/errors/404/v1/404"/>
+        </root>
+    </jcr:content>
+</jcr:root>

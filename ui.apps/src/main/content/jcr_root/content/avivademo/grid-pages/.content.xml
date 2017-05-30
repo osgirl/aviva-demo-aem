@@ -2,13 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-05-25T13:09:26.963+05:30"
+        cq:lastModified="{Date}2017-05-30T14:59:59.490+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/aviva-demo/settings/wcm/templates/redirect-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Error Pages"
+        jcr:title="Grid Pages"
         sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"/>
-    <_x0034_04/>
+    <article1/>
 </jcr:root>

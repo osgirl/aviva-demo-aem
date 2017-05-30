@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/aviva-demo/settings/wcm/templates/.*]"
+        cq:allowedTemplates="[/conf/aviva-demo/settings/wcm/templates/.*,/apps/aviva-demo/templates/.*]"
         cq:cloudserviceconfigs="[/etc/cloudservices/msft-translation/msft_trial,/etc/cloudservices/translation/default_translation]"
         cq:designPath="/etc/designs/aviva-demo"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
@@ -16,4 +16,5 @@
         redirectTarget="/content/avivademo/uk/en"/>
     <uk/>
     <errors/>
+    <grid-pages/>
 </jcr:root>
