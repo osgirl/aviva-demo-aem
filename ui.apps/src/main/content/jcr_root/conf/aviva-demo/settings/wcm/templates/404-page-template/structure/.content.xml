@@ -3,50 +3,36 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2017-05-25T15:51:56.838+05:30"
+        cq:lastModified="{Date}2017-05-30T14:35:20.895+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/aviva-demo/settings/wcm/templates/landing-page"
+        cq:template="/conf/aviva-demo/settings/wcm/templates/404-page-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="weretail/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
-                jcr:created="{Date}2017-05-25T00:37:33.644+05:30"
+                jcr:created="{Date}2017-05-30T13:59:06.657+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T00:37:33.644+05:30"
+                jcr:lastModified="{Date}2017-05-30T13:59:06.657+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aviva-demo/components/content/header/v1/header"/>
-            <image
-                jcr:created="{Date}2017-05-25T13:33:55.599+05:30"
+            <_404
+                jcr:created="{Date}2017-05-30T14:12:22.756+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T13:33:55.599+05:30"
+                jcr:lastModified="{Date}2017-05-30T14:12:22.756+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aviva-demo/components/content/logo/v1/image"
+                sling:resourceType="aviva-demo/components/content/errors/404/v1/404"
                 editable="{Boolean}true"/>
             <footer
-                jcr:created="{Date}2017-05-25T00:37:37.047+05:30"
+                jcr:created="{Date}2017-05-30T13:59:11.702+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T00:37:37.047+05:30"
+                jcr:lastModified="{Date}2017-05-30T13:59:11.702+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aviva-demo/components/content/footer/v1/footer"/>
-            <sharing_597282149
-                jcr:created="{Date}2017-05-25T15:51:40.084+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T15:51:40.084+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
-            <sharing
-                jcr:created="{Date}2017-05-25T15:51:56.834+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T15:51:56.834+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/sharing/v1/sharing"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

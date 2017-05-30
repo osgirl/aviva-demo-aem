@@ -1,20 +1,16 @@
 
-<div class="${!wcmmode.disabled ? '' : 'col-xs-12 col-sm-12'} explore-articles explore-articles-grid clearfix" data-datasource="${articlelist.datasource}" data-pagesize="${articlelist.pageSize}">
-	<div class="section-title-btn col-sm-4 col-xs-12 articlegrid-title-button" id="articlegridbutton-${properties.gridTitle}" data-title="${properties.gridTitle}">${properties.gridTitle}</div>
-    <div class="col-sm-12 col-xs-12 clearfix articles-container-wrapper padding0">			
-	</div>
-	<div class="col-sm-12 col-xs-12 clearfix padding0">
-		<div class="marker-end"></div>
-	</div>
+<div data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+		data-sly-unwrap="${wcmmode.disabled}">
 
-</div>
-</div>
+
+
+
 
 
 <sly data-sly-use.relatedUse="${'com.avivademo.aem.models.ArticleGrid'}" />  
 <div class="col-xs-12 col-sm-12 explore-articles explore-articles-multimedia clearfix">
 	<div class="section-title-btn col-sm-4 col-xs-12 articlegrid-title-button" id="articlegridbutton-${properties.gridTitle}" data-title="${properties.gridTitle}">${properties.gridTitle}</div>
-    <div class="col-sm-12 col-xs-12 clearfix articles-container-wrapper padding0">			
+
 		<sly data-sly-list.listItem="${relatedUse.relatedArticles}">
 		<div itemscope itemtype="http://schema.org/Article" class="col-sm-4 col-xs-12 articles-container article-grid-item-${properties.gridTitle}" id="ra-${listItemList.index}">
 			<a href="${listItem.pagePath}" itemprop="image">
@@ -38,7 +34,6 @@
            	</div>
 		</div>
 		</sly>
-	</div>
-</div>
-</div>
+
+
 

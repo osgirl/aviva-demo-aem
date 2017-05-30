@@ -7,7 +7,7 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_25011147489124
-                        jcr:lastModified="{Date}2017-05-25T00:37:29.273+05:30"
+                        jcr:lastModified="{Date}2017-05-30T13:58:59.771+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="components"
@@ -24,7 +24,7 @@
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1495652861720
-                        jcr:lastModified="{Date}2017-05-25T00:37:50.758+05:30"
+                        jcr:lastModified="{Date}2017-05-30T13:59:27.459+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="clientlib"

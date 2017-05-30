@@ -4,4 +4,5 @@
     jcr:primaryType="cq:Page">
     <landing-page/>
     <redirect-page/>
+    <_x0034_04-page-template/>
 </jcr:root>

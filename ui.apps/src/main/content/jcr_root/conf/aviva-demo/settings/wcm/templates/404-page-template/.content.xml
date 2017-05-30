@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2017-05-25T15:51:56.838+05:30"
+        cq:lastModified="{Date}2017-05-30T14:35:20.895+05:30"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/aviva-demo/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Landing Page"
+        jcr:title="404 Page Template"
         status="enabled"/>
 </jcr:root>
