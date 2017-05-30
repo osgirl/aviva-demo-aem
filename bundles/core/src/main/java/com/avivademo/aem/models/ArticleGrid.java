@@ -75,10 +75,10 @@ public class ArticleGrid extends WCMUsePojo{
 		LOG.info("parent name path::"+parentNode.getPath());
 		if(!nodeArticle.getPath().equalsIgnoreCase(currentPath+"/jcr:content")){
 			if(nodeArticle.hasProperty("pageTitle")){
-				article.setArticleTitle(nodeArticle.getProperty("pageTitle").toString());
+				article.setArticleTitle(nodeArticle.getProperty("pageTitle").getString());
 			}
 			if(nodeArticle.hasProperty("jcr:description")){
-				article.setArticleDescription(nodeArticle.getProperty("jcr:description").toString());
+				article.setArticleDescription(nodeArticle.getProperty("jcr:description").getString());
 			}
 			article.setPagePath(nodeArticle.getPath().replace("/jcr:content", "")+".html");
 				
