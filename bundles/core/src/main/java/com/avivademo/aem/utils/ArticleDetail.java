@@ -8,15 +8,9 @@ public class ArticleDetail {
 	private String articleSubtitle;
 	private String articleHeadline;
 	private String articleDescription;
-	private String thumbSize;
+	private String articlePath;
+	private String articleImagePath;
 	
-	
-	public String getThumbSize() {
-		return thumbSize;
-	}
-	public void setThumbSize(String thumbSize) {
-		this.thumbSize = thumbSize;
-	}
 	
 	public String getArticleTitle() {
 		return articleTitle;
@@ -30,7 +24,6 @@ public class ArticleDetail {
 	public void setArticleSubtitle(String articleDesc) {
 		this.articleSubtitle = articleDesc;
 	}
-	
 	public String getPagePath() {
 		return pagePath;
 	}
@@ -39,6 +32,9 @@ public class ArticleDetail {
 	}
 	public String getArticleHeadline() {
 		return articleHeadline;
+	}
+	public String getArticleImagePath() {
+		return articleImagePath;
 	}
 	public void setArticleHeadline(String articleHeadline) {
 		this.articleHeadline = articleHeadline;
@@ -49,5 +45,18 @@ public class ArticleDetail {
 	public void setArticleDescription(String articleDescription) {
 		this.articleDescription = articleDescription;
 	}
+	public String getArticlePath() {
+		return articlePath;
+	}
+	public void setArticlePath(String articlePath) {
+		this.articlePath = articlePath;
+	}
+	public void setArticleImagePath(String articleImagePath) {
+		this.articleImagePath = articleImagePath;
+		
+	}
+
+	
+	
 	
 }

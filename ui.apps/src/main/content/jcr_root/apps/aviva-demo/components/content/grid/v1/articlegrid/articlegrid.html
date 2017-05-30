@@ -10,15 +10,10 @@ fsdgsdfg
 		<sly data-sly-list.listItem="${relatedUse.relatedArticles}">
 		<div itemscope itemtype="http://schema.org/Article" class="col-sm-4 col-xs-12 articles-container article-grid-item-${properties.gridTitle}" id="ra-${listItemList.index}">
 			<a href="${listItem.pagePath}" itemprop="image">
-				<div class="nailthumb-container square-thumb${listItem.thumbSize} hidden-xs">
-					<img class="nailthumb-containerimg-responsive col-sm-4 col-xs-4 hidden-xs padding0" 
-					src="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.${listItem.thumbSize}.${listItem.thumbSize}.png" 
-					data-original="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.${listItem.thumbSize}.${listItem.thumbSize}.png" alt="explore-articles">
-				</div>
 				<div class="nailthumb-container square-thumb132 hidden-sm hidden-md hidden-lg">
 					<img class="img-responsive col-sm-4 col-xs-4 hidden-sm hidden-md hidden-lg padding0" 
-					src="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.132.132.png" 
-					data-original="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.132.132.png" alt="explore-articles">               
+					src="${listItem.articleImagePath}/_jcr_content/renditions/cq5dam.thumbnail.132.132.png" 
+					data-original="${listItem.articleImagePath}/_jcr_content/dam:thumbnails/dam:thumbnail_319.png" alt="explore-articles">               
 				</div>
             </a>
             <div class="col-sm-8 col-xs-8 articles-content articles-small-content">
