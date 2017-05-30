@@ -1,0 +1,44 @@
+
+<div class="${!wcmmode.disabled ? '' : 'col-xs-12 col-sm-12'} explore-articles explore-articles-grid clearfix" data-datasource="${articlelist.datasource}" data-pagesize="${articlelist.pageSize}">
+	<div class="section-title-btn col-sm-4 col-xs-12 articlegrid-title-button" id="articlegridbutton-${properties.gridTitle}" data-title="${properties.gridTitle}">${properties.gridTitle}</div>
+    <div class="col-sm-12 col-xs-12 clearfix articles-container-wrapper padding0">			
+	</div>
+	<div class="col-sm-12 col-xs-12 clearfix padding0">
+		<div class="marker-end"></div>
+	</div>
+
+</div>
+</div>
+
+
+<sly data-sly-use.relatedUse="${'com.avivademo.aem.models.ArticleGrid'}" />  
+<div class="col-xs-12 col-sm-12 explore-articles explore-articles-multimedia clearfix">
+	<div class="section-title-btn col-sm-4 col-xs-12 articlegrid-title-button" id="articlegridbutton-${properties.gridTitle}" data-title="${properties.gridTitle}">${properties.gridTitle}</div>
+    <div class="col-sm-12 col-xs-12 clearfix articles-container-wrapper padding0">			
+		<sly data-sly-list.listItem="${relatedUse.relatedArticles}">
+		<div itemscope itemtype="http://schema.org/Article" class="col-sm-4 col-xs-12 articles-container article-grid-item-${properties.gridTitle}" id="ra-${listItemList.index}">
+			<a href="${listItem.pagePath}" itemprop="image">
+				<div class="nailthumb-container square-thumb${listItem.thumbSize} hidden-xs">
+					<img class="nailthumb-containerimg-responsive col-sm-4 col-xs-4 hidden-xs padding0" 
+					src="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.${listItem.thumbSize}.${listItem.thumbSize}.png" 
+					data-original="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.${listItem.thumbSize}.${listItem.thumbSize}.png" alt="explore-articles">
+				</div>
+				<div class="nailthumb-container square-thumb132 hidden-sm hidden-md hidden-lg">
+					<img class="img-responsive col-sm-4 col-xs-4 hidden-sm hidden-md hidden-lg padding0" 
+					src="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.132.132.png" 
+					data-original="${listItem.articleBannerPath}/_jcr_content/renditions/cq5dam.thumbnail.132.132.png" alt="explore-articles">               
+				</div>
+            </a>
+            <div class="col-sm-8 col-xs-8 articles-content articles-small-content">
+            	<a href="${listItem.pagePath}">
+            		<h4 class="list-hdng" itemprop="name">${listItem.articleTitle}</h4>
+            	</a>
+				<p class="hidden-xs ar-para" itemprop="description">${listItem.articleDescription}</p>
+
+           	</div>
+		</div>
+		</sly>
+	</div>
+</div>
+</div>
+

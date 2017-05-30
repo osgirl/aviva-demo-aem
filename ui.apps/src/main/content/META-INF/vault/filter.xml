@@ -16,4 +16,5 @@
 
     </filter>
 
+	<filter root="/content/avivademo" mode="update"/>
 </workspaceFilter>
