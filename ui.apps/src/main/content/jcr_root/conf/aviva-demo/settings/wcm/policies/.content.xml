@@ -7,13 +7,18 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_25011147489124
-                        jcr:lastModified="{Date}2017-05-30T13:58:59.771+05:30"
+                        jcr:lastModified="{Date}2017-06-01T01:28:23.328+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="components"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="group:Aviva Demo">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2017-06-01T01:24:49.373+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_25011147489124>
                 </responsivegrid>
             </components>
@@ -24,13 +29,18 @@
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1495652861720
-                        jcr:lastModified="{Date}2017-05-30T13:59:27.459+05:30"
+                        jcr:lastModified="{Date}2017-06-01T01:28:44.990+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="clientlib"
                         sling:resourceType="wcm/core/components/policy/policy"
                         clientlibs="avivademo.structure">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2017-06-01T01:24:49.373+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1495652861720>
                 </page>
             </structure>

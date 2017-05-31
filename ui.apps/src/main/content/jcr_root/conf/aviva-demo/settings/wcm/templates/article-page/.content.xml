@@ -2,13 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2017-06-01T01:26:43.460+05:30"
+        cq:lastModified="{Date}2017-06-01T01:29:03.278+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2017-06-01T01:27:29.201+05:30"
-        cq:lastReplicatedBy="admin"
-        cq:lastReplicationAction="Activate"
         cq:templateType="/conf/aviva-demo/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Landing Page"
-        status="draft"/>
+        jcr:title="article-page"
+        status="enabled"/>
 </jcr:root>
