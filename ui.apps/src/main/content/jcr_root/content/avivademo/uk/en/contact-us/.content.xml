@@ -10,6 +10,17 @@
         sling:resourceType="weretail/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <articlegrid
+                jcr:created="{Date}2017-06-01T16:23:31.764+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-06-01T16:37:17.496+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aviva-demo/components/content/grid/v1/articlegrid"
+                gridTitle="Sample Grid"
+                maxLimit="2"
+                pagePath="/content/avivademo/grid-pages"/>
+        </root>
     </jcr:content>
 </jcr:root>

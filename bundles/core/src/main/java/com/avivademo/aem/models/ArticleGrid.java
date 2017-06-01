@@ -80,8 +80,11 @@ public class ArticleGrid extends WCMUsePojo{
 			if(nodeArticle.hasProperty("jcr:description")){
 				article.setArticleDescription(nodeArticle.getProperty("jcr:description").getString());
 			}
+			Boolean flag = nodeArticle.hasNode("image");
 			if(nodeArticle.hasNode("image")){
+				if(nodeArticle.getNode("image").hasNode("file")){
 				article.setArticleImagePath(nodeArticle.getNode("image").getNode("file").getPath());
+				}
 			}
 			article.setPagePath(nodeArticle.getPath().replace("/jcr:content", "")+".html");
 				
