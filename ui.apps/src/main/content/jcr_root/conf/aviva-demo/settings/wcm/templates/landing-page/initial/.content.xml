@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:template="/conf/aviva-demo/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="weretail/components/structure/page"/>
+        sling:resourceType="weretail/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2017-06-01T15:42:24.957+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2017-05-25T00:37:33.644+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-25T00:37:33.644+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aviva-demo/components/content/header/v1/header"/>
+            <articlegrid
+                jcr:created="{Date}2017-06-01T15:39:55.507+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-06-01T15:39:55.507+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aviva-demo/components/content/grid/v1/articlegrid"/>
+            <footer
+                jcr:created="{Date}2017-05-25T00:37:37.047+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-05-25T00:37:37.047+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aviva-demo/components/content/footer/v1/footer"/>
+            <articlegrid_1827797405
+                jcr:created="{Date}2017-06-01T15:41:02.718+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-06-01T15:41:02.718+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aviva-demo/components/content/grid/v1/articlegrid"/>
+        </root>
+    </jcr:content>
 </jcr:root>

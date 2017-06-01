@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2017-06-01T01:26:43.457+05:30"
+        cq:lastModified="{Date}2017-06-01T15:42:16.992+05:30"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2017-06-01T01:27:29.201+05:30"
         cq:lastReplicatedBy="admin"
@@ -12,23 +12,11 @@
         jcr:primaryType="cq:PageContent"
         sling:resourceType="weretail/components/structure/page">
         <root
+            jcr:lastModified="{Date}2017-06-01T15:39:23.566+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <header
-                jcr:created="{Date}2017-05-25T00:37:33.644+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T00:37:33.644+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aviva-demo/components/content/header/v1/header"/>
-            <footer
-                jcr:created="{Date}2017-05-25T00:37:37.047+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-05-25T00:37:37.047+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aviva-demo/components/content/footer/v1/footer"/>
-        </root>
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            editable="{Boolean}true"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone

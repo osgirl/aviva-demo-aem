@@ -7,14 +7,14 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_25011147489124
-                        jcr:lastModified="{Date}2017-06-01T01:28:23.328+05:30"
+                        jcr:lastModified="{Date}2017-06-01T15:36:40.867+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="components"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="group:Aviva Demo">
+                        components="[group:Aviva Demo]">
                         <jcr:content
-                            cq:lastReplicated="{Date}2017-06-01T01:24:49.373+05:30"
+                            cq:lastReplicated="{Date}2017-06-01T15:33:30.452+05:30"
                             cq:lastReplicatedBy="admin"
                             cq:lastReplicationAction="Activate"
                             jcr:mixinTypes="[cq:ReplicationStatus]"
@@ -36,7 +36,7 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         clientlibs="avivademo.structure">
                         <jcr:content
-                            cq:lastReplicated="{Date}2017-06-01T01:24:49.373+05:30"
+                            cq:lastReplicated="{Date}2017-06-01T15:33:30.452+05:30"
                             cq:lastReplicatedBy="admin"
                             cq:lastReplicationAction="Activate"
                             jcr:mixinTypes="[cq:ReplicationStatus]"
