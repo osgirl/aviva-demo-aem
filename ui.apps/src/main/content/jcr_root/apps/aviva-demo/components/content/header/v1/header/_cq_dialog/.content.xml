@@ -8,5 +8,6 @@
         jcr:primaryType="nt:unstructured"
         sling:resourceType="granite/ui/components/foundation/container">
         <items jcr:primaryType="nt:unstructured"/>
+        </items>
     </content>
 </jcr:root>
