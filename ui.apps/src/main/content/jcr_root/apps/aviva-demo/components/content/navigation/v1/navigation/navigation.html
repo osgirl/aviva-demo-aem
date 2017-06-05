@@ -1,12 +1,12 @@
-<%--
 
-  Navigation Component component.
+<sly data-sly-test="{wcmmode.edit}">Author Mode: Navigation Component </sly>
 
-  
 
---%><%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><%
-	// TODO add you code here
-%>
+<sly data-sly-use.model="com.avivademo.aem.models.NavigationComponent">
+
+    <sly data-sly-list.navList="${}model.navigationList}" >
+    	<a class="headerlink" href="${navList.linkUrl}"> ${navList.linkLabel} </a>
+        a class="headerlink" href="#">|</a>
+    </sly>
+
+</sly>
