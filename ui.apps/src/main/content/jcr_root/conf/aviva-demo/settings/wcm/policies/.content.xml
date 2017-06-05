@@ -7,12 +7,12 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_25011147489124
-                        jcr:lastModified="{Date}2017-06-01T16:05:15.328+05:30"
+                        jcr:lastModified="{Date}2017-06-05T13:26:56.325+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="components"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:Aviva Demo]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Aviva Demo]">
                         <jcr:content
                             cq:lastReplicated="{Date}2017-06-01T15:33:30.452+05:30"
                             cq:lastReplicatedBy="admin"

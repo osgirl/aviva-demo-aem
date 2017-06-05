@@ -6,9 +6,17 @@
         jcr:primaryType="cq:PageContent"
         sling:resourceType="weretail/components/structure/page">
         <root
-            jcr:lastModified="{Date}2017-06-01T15:33:47.923+05:30"
+            jcr:lastModified="{Date}2017-06-05T13:25:23.294+05:30"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-06-05T13:26:28.483+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-06-05T13:26:43.249+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
     </jcr:content>
 </jcr:root>
